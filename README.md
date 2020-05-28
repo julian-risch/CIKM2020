@@ -16,3 +16,6 @@ Example usage:
 
 Example output: 
 ![alt text](example_output.png "Example Output")
+
+# Word Embeddings
+Our FastText Word Embeddings were trained on 60 million comments from The Guardian and can be downloaded here: https://owncloud.hpi.de/s/8LjQz1nyFI3OZBe
