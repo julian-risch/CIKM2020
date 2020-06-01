@@ -25,3 +25,9 @@ Example output:
 Our FastText Word Embeddings were trained on 60 million comments from The Guardian and can be downloaded [here](https://owncloud.hpi.de/s/8LjQz1nyFI3OZBe).
 
 A Web browser-based visualization of the embeddings can been accessed [here](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/julian-risch/7c9c4fcc58401d340f2a96c28cdbfd47/raw/05e702e611f3e6dd16c5737143fd22d2184bae82/projector_config.json).
+
+# Acknowledgments
+First of all, we would like to thank *The Guardian* for providing access to the comment data via their *Guardian Open Platform*.
+This project was partly funded by the Robert Bosch Foundation in the context of its master class *Science Journalism* 2018.
+We would like to thank the collaborating journalists Andreas Loos from *ZEIT ONLINE* and Wolfgang Richter from *Journalistenbüro Schnittstelle* for the close cooperation, which we look forward to continue together. 
+Further, we would like to thank our students Nicolas Alder, Lasse Kohlmeyer, and Niklas K\"{o}hnecke for their support throughout the project.
