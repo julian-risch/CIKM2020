@@ -12,7 +12,7 @@ In case your daily number of API calls is limited, the script stops when the lim
 
 Example usage:
 
-```python GAT.py --apikey "" --source "comment_ids_replied_to_by_the_journalist.csv" --output "comments_replied_to_by_the_journalist.csv"```
+```python3 GAT.py --apikey "<your_api_key_here>" --source "comment_ids_replied_to_by_the_journalist10.csv" --output "comments_replied_to_by_the_journalist.csv"```
 
 Example output: 
 ![alt text](example_output.png "Example Output")
