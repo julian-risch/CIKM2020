@@ -8,7 +8,7 @@ To support repeatability and push further research in this area, we provide a sc
 The script takes comment IDs as input and retrieves the corresponding comments via the Guardian's API. 
 An API key is required to access the API. You can register for a key by filling out [this short form](https://bonobo.capi.gutools.co.uk/register/developer).
 
-In case the daily number of API calls is limited, the script stops when the limit is reached. If restarted, the script will try to continue from the point where it stopped.
+In case your daily number of API calls is limited, the script stops when the limit is reached. If restarted, the script will continue from the point where it stopped.
 
 Example usage:
 
