@@ -149,7 +149,7 @@ if args.apikey==None:
     args.apikey=''#your_key
     
 if args.source==None:
-    args.source=''#default loading file
+    args.source='comment_ids_replied_to_by_the_journalist10.csv'
 
 API_ENDPOINT = 'http://discussion.theguardian.com/discussion-api/'
 
