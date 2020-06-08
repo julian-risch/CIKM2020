@@ -14,9 +14,9 @@ Example usage:
 
 ```python3 GAT.py --apikey "<your_api_key_here>" --source "comment_ids_replied_to_by_the_journalist10.csv" --output "comments_replied_to_by_the_journalist.csv"```
 
-There are two example files for testing purposes, which contain only 10 comment IDs:
+There are three example files for testing purposes, which contain only 10 comment IDs:
 
-```comment_ids_replied_to_by_the_journalist10.csv``` and ```comment_ids_not_replied_to_by_the_journalist10.csv```
+```comment_ids_replied_to_by_the_journalist10.csv```, ```comment_ids_not_replied_to_by_the_journalist10.csv```, and ```comment_ids_of_journalist_replies10.csv```
 
 Example output: 
 ![alt text](example_output.png "Example Output")
