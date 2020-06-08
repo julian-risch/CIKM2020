@@ -4,6 +4,7 @@ This repository contains a python script and files that list comment IDs.
 It is part of our submission to CIKM 2020, which is titled "A Dataset of Journalists' Interactions With Their Readership: When Should Article Authors Reply to Reader Comments?".
 
 To support repeatability and push further research in this area, we provide a script to download a set of 38,000 of comments. The script accesses the Guardian’s Web API to download a predefined list of comments identified by their IDs. Half of these comments received a reply by a journalist, while the other half did not. Due to the provided class labels and the balanced class distribution, the comments can be easily used for supervised machine learning.
+Further, we provide the comment IDs of the journalists' replies. 
 
 The script takes comment IDs as input and retrieves the corresponding comments via the Guardian's API. 
 An API key is required to access the API. You can register for a key by filling out [this short form](https://bonobo.capi.gutools.co.uk/register/developer).
