@@ -27,6 +27,10 @@ Our FastText Word Embeddings were trained on 60 million comments from The Guardi
 
 A Web browser-based visualization of the embeddings can been accessed [here](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/julian-risch/7c9c4fcc58401d340f2a96c28cdbfd47/raw/05e702e611f3e6dd16c5737143fd22d2184bae82/projector_config.json).
 
+# Labels
+We machine-labeled all comments and in addition manually labeled a subset of them. The labels are contained in the files:
+```comment_ids_replied_to_and_machine-labeled_sentiment.csv```, ```comment_ids_not_replied_to_and_machine-labeled_sentiment.csv```, and ```comment_ids_replied_to_and_manual_annotations.csv```
+
 # Acknowledgments
 First of all, we would like to thank *The Guardian* for providing access to the comment data via their *Guardian Open Platform*.
 This project was partly funded by the Robert Bosch Foundation in the context of its master class *Science Journalism* 2018.
