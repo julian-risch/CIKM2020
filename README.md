@@ -22,14 +22,18 @@ There are three example files for testing purposes, which contain only 10 commen
 Example output: 
 ![alt text](example_output.png "Example Output")
 
+# Labels
+We machine-labeled all comments and in addition manually labeled a subset of them. The labels are contained in the files:
+```comment_ids_replied_to_and_machine-labeled_sentiment.csv```, ```comment_ids_not_replied_to_and_machine-labeled_sentiment.csv```, and ```comment_ids_replied_to_and_manual_annotations.csv```
+
 # Word Embeddings
 Our FastText Word Embeddings were trained on 60 million comments from The Guardian and can be downloaded [here](https://owncloud.hpi.de/s/8LjQz1nyFI3OZBe).
 
 A Web browser-based visualization of the embeddings can been accessed [here](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/julian-risch/7c9c4fcc58401d340f2a96c28cdbfd47/raw/05e702e611f3e6dd16c5737143fd22d2184bae82/projector_config.json).
 
-# Labels
-We machine-labeled all comments and in addition manually labeled a subset of them. The labels are contained in the files:
-```comment_ids_replied_to_and_machine-labeled_sentiment.csv```, ```comment_ids_not_replied_to_and_machine-labeled_sentiment.csv```, and ```comment_ids_replied_to_and_manual_annotations.csv```
+# Code
+```pairwise-comment-ranking.py``` and ```pairwise-comment-ranking-data-generator.py``` contain example code that shows how to load the fasttext embeddings, how to apply them, and how to use pairs of comments as input to train a neural network model.
+[FastText](https://github.com/facebookresearch/fastText/#building-fasttext-for-python) needs to be installed to use the embeddings.
 
 # Acknowledgments
 First of all, we would like to thank *The Guardian* for providing access to the comment data via their *Guardian Open Platform*.
