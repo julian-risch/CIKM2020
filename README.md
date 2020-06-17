@@ -29,7 +29,7 @@ We machine-labeled all comments and in addition manually labeled a subset of the
 # Word Embeddings
 Our FastText Word Embeddings were trained on 60 million comments from The Guardian and can be downloaded [here](https://owncloud.hpi.de/s/8LjQz1nyFI3OZBe).
 
-A Web browser-based visualization of the embeddings can been accessed [here](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/julian-risch/7c9c4fcc58401d340f2a96c28cdbfd47/raw/05e702e611f3e6dd16c5737143fd22d2184bae82/projector_config.json).
+A Web browser-based visualization of the embeddings can been accessed [here](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/julian-risch/9d6d125b7b5e49eb9b1ffacfd6de922a/raw/22b39854e2f5acb31dac1d586871d3fee7a4d0ca/1-10k-projector_config.json).
 
 # Code
 ```pairwise-comment-ranking.py``` and ```pairwise-comment-ranking-data-generator.py``` contain example code that shows how to load the fasttext embeddings, how to apply them, and how to use pairs of comments as input to train a neural network model.
