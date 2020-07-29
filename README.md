@@ -38,5 +38,5 @@ A Web browser-based visualization of the embeddings can been accessed [here](htt
 # Acknowledgments
 First of all, we would like to thank *The Guardian* for providing access to the comment data via their *Guardian Open Platform*.
 This project was partly funded by the Robert Bosch Foundation in the context of its master class *Science Journalism* 2018.
-We would like to thank the collaborating data scientist Andreas Loos from *ZEIT ONLINE* and journalist Wolfgang Richter from *Journalistenbüro Schnittstelle* for the close cooperation, which we look forward to continue together. 
+We would like to thank the collaborating data scientist Andreas Loos from *ZEIT ONLINE* and journalist Wolfgang Richter from *Journalistenbüro Schnittstelle* for the close cooperation.
 Further, we would like to thank our students Nicolas Alder, Lasse Kohlmeyer, and Niklas Köhnecke for their support throughout the project.
