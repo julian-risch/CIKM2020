@@ -35,6 +35,17 @@ A Web browser-based visualization of the embeddings can been accessed [here](htt
 ```pairwise-comment-ranking.py``` and ```pairwise-comment-ranking-data-generator.py``` contain example code that shows how to load the fasttext embeddings, how to apply them, and how to use pairs of comments as input to train a neural network model.
 [FastText](https://github.com/facebookresearch/fastText/#building-fasttext-for-python) needs to be installed to use the embeddings.
 
+# Citation
+If you use our work, please cite our upcoming paper [**A Dataset of Journalists' Interactions With Their Readership: When Should Article Authors Reply to Reader Comments?**](https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/people/risch/risch2020dataset.pdf) accepted for publication at CIKM'20 as follows:
+
+    @inproceedings{risch2020dataset,
+    title = {A Dataset of Journalists' Interactions With Their Readership: 
+    When Should Article Authors Reply to Reader Comments?},
+    author = {Risch, Julian and Krestel, Ralf},
+    booktitle = {Proceedings of the International Conference on Information and Knowledge Management (CIKM)},
+    year = {2020}
+    }
+
 # Acknowledgments
 First of all, we would like to thank *The Guardian* for providing access to the comment data via their *Guardian Open Platform*.
 This project was partly funded by the Robert Bosch Foundation in the context of its master class *Science Journalism* 2018.
