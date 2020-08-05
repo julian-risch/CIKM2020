@@ -1,7 +1,7 @@
-# A Dataset of Journalists' Interactions With Their Readership: When Should Article Authors Reply to Reader Comments?
+# A Dataset of Journalists' Interactions with Their Readership: When Should Article Authors Reply to Reader Comments?
 
 This repository contains a python script and files that list comment IDs.
-It is part of our submission to CIKM 2020, which is titled "A Dataset of Journalists' Interactions With Their Readership: When Should Article Authors Reply to Reader Comments?".
+It is part of our submission to CIKM 2020, which is titled "A Dataset of Journalists' Interactions with Their Readership: When Should Article Authors Reply to Reader Comments?".
 
 To support repeatability and push further research in this area, we provide a script to download a set of 38,000 of comments. The script accesses the Guardian’s Web API to download a predefined list of comments identified by their IDs. Half of these comments received a reply by a journalist, while the other half did not. Due to the provided class labels and the balanced class distribution, the comments can be easily used for supervised machine learning.
 Further, we provide the comment IDs of the journalists' replies. 
@@ -36,10 +36,10 @@ A Web browser-based visualization of the embeddings can been accessed [here](htt
 [FastText](https://github.com/facebookresearch/fastText/#building-fasttext-for-python) needs to be installed to use the embeddings.
 
 # Citation
-If you use our work, please cite our upcoming paper [**A Dataset of Journalists' Interactions With Their Readership: When Should Article Authors Reply to Reader Comments?**](https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/people/risch/risch2020dataset.pdf) accepted for publication at CIKM'20 as follows:
+If you use our work, please cite our upcoming paper [**A Dataset of Journalists' Interactions with Their Readership: When Should Article Authors Reply to Reader Comments?**](https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/people/risch/risch2020dataset.pdf) accepted for publication at CIKM'20 as follows:
 
     @inproceedings{risch2020dataset,
-    title = {A Dataset of Journalists' Interactions With Their Readership: 
+    title = {A Dataset of Journalists' Interactions with Their Readership: 
     When Should Article Authors Reply to Reader Comments?},
     author = {Risch, Julian and Krestel, Ralf},
     booktitle = {Proceedings of the International Conference on Information and Knowledge Management (CIKM)},
