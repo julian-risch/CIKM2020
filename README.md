@@ -43,6 +43,7 @@ If you use our work, please cite our upcoming paper [**A Dataset of Journalists'
     When Should Article Authors Reply to Reader Comments?},
     author = {Risch, Julian and Krestel, Ralf},
     booktitle = {Proceedings of the International Conference on Information and Knowledge Management (CIKM)},
+    pages = {3117--3124},
     year = {2020}
     }
 
